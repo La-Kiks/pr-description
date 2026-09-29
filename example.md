@@ -21,6 +21,8 @@ Invoices with a percentage discount could show a total off by 0.01 €, for exam
 ## Validation and proof
 
 - [x] Focused tests pass (`npm test -- invoice`: 12 passed)
-- [x] Existing behavior is covered (no regression): the 9 existing invoice tests pass unchanged
+- [x] Existing behavior is covered (no regression): full suite (`npm test`: 58 passed), including the 9 existing invoice tests, unchanged
 - [ ] UI proof is attached (screenshot or recording), when relevant: N/A, no UI change
 - [ ] A fresh reviewer or agent reviewed the diff: not yet, waiting for review
+
+**Rollback:** easy. No schema or data change; reverting restores the old rounding for new invoices.
