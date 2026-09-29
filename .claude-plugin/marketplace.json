@@ -1,0 +1,14 @@
+{
+  "name": "pr-description",
+  "description": "Marketplace for the pr-description skill",
+  "owner": {
+    "name": "Kilian Audroin"
+  },
+  "plugins": [
+    {
+      "name": "pr-description",
+      "source": "./",
+      "description": "Writes pull request titles and descriptions from the branch diff, using a PR template"
+    }
+  ]
+}
