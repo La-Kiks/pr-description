@@ -4,6 +4,8 @@ A Claude Code skill that writes pull request titles and descriptions from the br
 
 The agent only checks a validation box when it actually ran that step, and gives a reason for each box left unchecked.
 
+See [example.md](example.md) for a filled-in PR.
+
 ## Install
 
 ```bash
@@ -44,6 +46,7 @@ Add this entry to the `plugins` array of the other marketplace's `.claude-plugin
 .claude-plugin/marketplace.json   lets this repo be added as a marketplace on its own
 SKILL.md                          instructions for the agent
 template.md                       the PR template
+example.md                        a filled-in PR, used by the agent as a reference
 ```
 
 ## License
