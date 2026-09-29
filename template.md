@@ -18,3 +18,5 @@
 - [ ] Existing behavior is covered (no regression)
 - [ ] UI proof is attached (screenshot or recording), when relevant
 - [ ] A fresh reviewer or agent reviewed the diff
+
+**Rollback:** <!-- easy or hard, and why -->
