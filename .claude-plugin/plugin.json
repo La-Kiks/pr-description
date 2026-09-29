@@ -1,0 +1,9 @@
+{
+  "name": "pr-description",
+  "description": "Writes pull request titles and descriptions from the branch diff, using a PR template",
+  "version": "0.1.0",
+  "author": {
+    "name": "Kilian Audroin"
+  },
+  "license": "MIT"
+}
