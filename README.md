@@ -1,6 +1,6 @@
 # pr-description
 
-A Claude Code skill that writes pull request titles and descriptions from the branch diff, using a fixed template: Why, What changed, Validation and proof.
+A Claude Code skill that writes pull request titles and descriptions from the branch diff, using a fixed template: Why, What changed, Validation and proof, Rollback.
 
 The agent only checks a validation box when it actually ran that step, and gives a reason for each box left unchecked.
 
